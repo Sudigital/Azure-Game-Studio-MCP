@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+bun.lock
+
+# Build output
+out/
+dist/
+*.tgz
+
+# Generated output (game assets, scripts, etc.)
+output/
+packages/
+
+# Generated assets (keep example assets)
+assets/generated/
+videos/generated/
+audio/generated/
+
+# User-generated docs
+docs/games/
+
+# Environment variables (NEVER commit these!)
+.env
+.env.local
+.env.*.local
+
+# MCP config with credentials
+mcp-config.json
+mcp-config..json
+.vscode/mcp.json
+
+# IDE and editor
+.idea/
+.vscode/settings.json
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Testing
+coverage/
+*.lcov
+
+# Cache
+.eslintcache
+.cache/
+*.tsbuildinfo
+
+# Internal/temporary
+.ipc/
+.roo/

@@ -1,0 +1,12 @@
+{
+  "name": "@azure-mcp/flame",
+  "version": "1.0.0",
+  "description": "MCP Server for Flutter Flame Game Engine",
+  "type": "module",
+  "main": "index.ts",
+  "dependencies": {
+    "@azure-mcp/shared": "workspace:*",
+    "@modelcontextprotocol/sdk": "^1.25.1",
+    "zod": "^4.3.5"
+  }
+}

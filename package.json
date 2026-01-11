@@ -1,0 +1,56 @@
+{
+  "name": "azure-game-studio-mcp",
+  "version": "0.1.0",
+  "description": "Multi-engine Game Development MCP Servers powered by Azure AI - Generate code for Blender, Unity, Flutter/Flame, and Figma",
+  "author": "Azure Game Studio Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/azure-game-studio-mcp.git"
+  },
+  "homepage": "https://github.com/yourusername/azure-game-studio-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/yourusername/azure-game-studio-mcp/issues"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "azure",
+    "openai",
+    "game-development",
+    "blender",
+    "unity",
+    "flutter",
+    "flame",
+    "figma",
+    "ai",
+    "code-generation"
+  ],
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0",
+    "bun": ">=1.0.0"
+  },
+  "scripts": {
+    "dev:core": "bun run index.ts",
+    "dev:flame": "bun run servers/flame/index.ts",
+    "dev:unity": "bun run servers/unity/index.ts",
+    "dev:blender": "bun run servers/blender/index.ts",
+    "dev:figma": "bun run servers/figma/index.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "bun build index.ts --target node --outfile dist/core.js && bun build servers/blender/index.ts --target node --outfile dist/blender.js && bun build servers/flame/index.ts --target node --outfile dist/flame.js && bun build servers/unity/index.ts --target node --outfile dist/unity.js && bun build servers/figma/index.ts --target node --outfile dist/figma.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.1",
+    "dotenv": "^17.2.3",
+    "microsoft-cognitiveservices-speech-sdk": "^1.47.0",
+    "openai": "^6.15.0",
+    "sharp": "^0.34.5",
+    "zod": "^3.24.0"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "mcpServers": {
+    "azure-game-studio": {
+      "command": "bun",
+      "args": ["run", "/path/to/azure-mcp/index.ts"],
+      "env": {
+        "AZURE_OPENAI_ENDPOINT": "https://your-resource.openai.azure.com/",
+        "AZURE_OPENAI_API_KEY": "your-api-key",
+        "AZURE_GPT_DEPLOYMENT_NAME": "gpt-4o",
+        "AZURE_IMAGE_DEPLOYMENT_NAME": "dall-e-3"
+      }
+    },
+    "blender-mcp": {
+      "command": "bun",
+      "args": ["run", "/path/to/azure-mcp/servers/blender/index.ts"],
+      "env": {
+        "AZURE_OPENAI_ENDPOINT": "https://your-resource.openai.azure.com/",
+        "AZURE_OPENAI_API_KEY": "your-api-key",
+        "AZURE_GPT_DEPLOYMENT_NAME": "gpt-4o"
+      }
+    },
+    "flame-mcp": {
+      "command": "bun",
+      "args": ["run", "/path/to/azure-mcp/servers/flame/index.ts"],
+      "env": {
+        "AZURE_OPENAI_ENDPOINT": "https://your-resource.openai.azure.com/",
+        "AZURE_OPENAI_API_KEY": "your-api-key",
+        "AZURE_GPT_DEPLOYMENT_NAME": "gpt-4o",
+        "AZURE_IMAGE_DEPLOYMENT_NAME": "dall-e-3"
+      }
+    },
+    "unity-mcp": {
+      "command": "bun",
+      "args": ["run", "/path/to/azure-mcp/servers/unity/index.ts"],
+      "env": {
+        "AZURE_OPENAI_ENDPOINT": "https://your-resource.openai.azure.com/",
+        "AZURE_OPENAI_API_KEY": "your-api-key",
+        "AZURE_GPT_DEPLOYMENT_NAME": "gpt-4o"
+      }
+    },
+    "figma-mcp": {
+      "command": "bun",
+      "args": ["run", "/path/to/azure-mcp/servers/figma/index.ts"],
+      "env": {
+        "AZURE_OPENAI_ENDPOINT": "https://your-resource.openai.azure.com/",
+        "AZURE_OPENAI_API_KEY": "your-api-key",
+        "AZURE_GPT_DEPLOYMENT_NAME": "gpt-4o",
+        "FIGMA_ACCESS_TOKEN": "your-figma-token"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+#f0f6fb SteelEdge — specular highlight for metal glints
+#c9d7e3 SteelBright — bright metal plane and small highlights
+#7d95a2 SteelMid — main armor mid-tone
+#47555b SteelDark — deep armor shadow
+#1b2629 MetalDeep — near-black metal / panel shadow
+#d6b36a GoldBright — gold trim highlight
+#a87f45 GoldMid — gold mid-tone for trims and emblems
+#6b3f24 LeatherMid — leather straps and belt
+#432816 LeatherDark — leather shadow and wear
+#a64b3a RustRed — small rust spots / worn metal accents
+#7b1f1f ClothRed — deep red cloth / sash
+#c94a3a ClothRedLight — red highlights and cloth folds
+#3b5a46 ClothGreen — secondary cloth or heraldry green
+#556673 ClothBlue — tunic / cloth mid-tone
+#2a2f36 AmbientShadow — cool ambient shadow tint
+#0a0a0a DeepBlack — silhouette black / outline

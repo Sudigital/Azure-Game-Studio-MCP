@@ -1,0 +1,20 @@
+{
+  "name": "@azure-mcp/shared",
+  "version": "1.0.0",
+  "description": "Shared utilities and Azure clients for MCP servers",
+  "type": "module",
+  "main": "index.ts",
+  "exports": {
+    ".": "./index.ts",
+    "./azure-clients": "./azure-clients.ts",
+    "./types": "./types.ts",
+    "./utils": "./utils.ts",
+    "./ipc": "./ipc.ts"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "microsoft-cognitiveservices-speech-sdk": "^1.47.0",
+    "openai": "^6.15.0",
+    "sharp": "^0.34.5"
+  }
+}
